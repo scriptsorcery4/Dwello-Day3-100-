@@ -5,7 +5,7 @@ import { Button } from '../ui/button';
 
 function ResidencesCard({img, loc, price, bed, cub}) {
   return (
-    <div className='rounded-[18px] flex flex-col overflow-hidden shadow-md'>
+    <div className='rounded-[18px] flex flex-col overflow-hidden shadow-md select-none'>
         <img src={img} alt="" />
         <div className='bg-[#DDC7BB] py-[18px] px-[20px] flex flex-col'>
             <div className='flex gap-[5px] items-center'>

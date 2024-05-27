@@ -1,3 +1,4 @@
+import About from "./components/About"
 import Benefit from "./components/Benefit"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
@@ -13,6 +14,7 @@ function App() {
     <Benefit/>
     <Stats/>
     <Residences/>
+    <About/>
    </div>
   )
 }
