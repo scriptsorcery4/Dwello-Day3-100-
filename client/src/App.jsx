@@ -1,5 +1,7 @@
 import About from "./components/About"
 import Benefit from "./components/Benefit"
+import CTA from "./components/CTA"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Residences from "./components/Residences"
@@ -15,6 +17,8 @@ function App() {
     <Stats/>
     <Residences/>
     <About/>
+    <CTA/>
+    <Footer/>
    </div>
   )
 }
