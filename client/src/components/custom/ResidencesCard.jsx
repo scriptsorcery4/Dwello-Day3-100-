@@ -10,7 +10,7 @@ function ResidencesCard({img, loc, price, bed, cub}) {
         <div className='bg-[#DDC7BB] py-[18px] px-[20px] flex flex-col'>
             <div className='flex gap-[5px] items-center'>
             <FaLocationDot />
-            <p className='font-bold text-[20px] text-[#2B1B12]'>{loc}</p>
+            <p className='font-bold text-[20px] text-[#2B1B12]'>{loc}</p> 
             </div>
             <div className=' mt-3 flex gap-[55px] items-center'>
                 <div className='flex gap-[5px] items-center'>

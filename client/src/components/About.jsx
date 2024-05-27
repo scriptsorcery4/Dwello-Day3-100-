@@ -90,7 +90,7 @@ function About() {
                             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                                 <AboutCard img={item.img} author={item.author} rat={item.rat} con={item.con} />
                             </CarouselItem>
-                        ))}
+                        ))} 
                     </CarouselContent>
                     <div className='mt-8 flex justify-center gap-2'>
                         <CarouselPrevious />

@@ -14,7 +14,7 @@ function Hero() {
         </div>
         
         <div className='absolute  top-[-20px] right-[-30px] z-[-1]'>
-            <img src={hero}  alt="" />
+            <img src={hero}  alt="" /> 
         </div>
         </div>
         <div className='max-w-[1070px] mx-auto px-[30px] py-[51px] bg-[#DDC7BB] rounded-[18px] flex gap-[24px] shadow-xl'>

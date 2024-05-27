@@ -17,7 +17,7 @@ function Benefit() {
                 <BenefitCard title='2K+' des='Trusted Agents'/>
             </div>
         </div>
-
+ 
         </div>
     </div>
   )

@@ -9,4 +9,4 @@ function BenefitCard({title, des}) {
   )
 }
 
-export default BenefitCard
+export default BenefitCard 

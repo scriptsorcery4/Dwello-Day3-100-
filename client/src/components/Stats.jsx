@@ -20,7 +20,7 @@ function Stats() {
                 <StatsCard img={img4} title='Exceptional Support' des='Providing peace of mind with our responsive and attentive customer service' />
            </div>
         </div>
-    </div>
+    </div> 
   )
 }
 
