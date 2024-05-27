@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 
 function Header() {
   return (
-    <div className='h-20 flex items-center font-montserrat'>
+    <div className='h-20 flex items-center font-montserrat fixed z-30 w-full bg-white shadow-sm'>
         <div className='container flex justify-between items-center'>
             <img  className="h-[29px]" src={logo} alt="" />
             <ul className='flex gap-[55px] font-bold text-[#2B1B12] items-center '>
@@ -19,7 +19,7 @@ function Header() {
                     <LuSearch size={24} />
                     <LuUser  size={24} />
                 </div>
-                <Button>Singup</Button>
+                <Button>Sing up</Button>
             </div>
         </div>
     </div>
