@@ -1,9 +1,10 @@
+import Header from "./components/Header"
 
 function App() {
   
   return (
    <>
-   <h1 className="underline font-montserrat">test</h1>
+    <Header/>
    </>
   )
 }
