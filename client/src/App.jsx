@@ -1,6 +1,7 @@
 import Benefit from "./components/Benefit"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Residences from "./components/Residences"
 import Stats from "./components/Stats"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Hero/>
     <Benefit/>
     <Stats/>
+    <Residences/>
    </div>
   )
 }

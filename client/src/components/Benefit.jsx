@@ -6,7 +6,7 @@ function Benefit() {
   return (
     <div className='py-[130px]'>
         <div className='container flex justify-between items-center'>
-            <img className='w-[48%]' src={img} alt="" />
+            <img className='w-[48%] shadow-xl rounded-[18px]' src={img} alt="" />
         
         <div className='flex flex-col '>
             <h2 className='w-[514px] font-extrabold leading-[140%] text-[40px]'>We Help You To Find Your Dream Home</h2>
