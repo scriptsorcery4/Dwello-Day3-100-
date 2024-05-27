@@ -13,12 +13,11 @@ function Hero() {
             <div><Button>Sing up</Button></div>
         </div>
         
-        <div className='absolute  top-0 right-[-30px] z-[-1]'>
+        <div className='absolute  top-[-20px] right-[-30px] z-[-1]'>
             <img src={hero}  alt="" />
         </div>
         </div>
-        
-        <div className='max-w-[1070px] mx-auto px-[30px] py-[41px] bg-[#DDC7BB] rounded-[18px] flex gap-[24px]'>
+        <div className='max-w-[1070px] mx-auto px-[30px] py-[51px] bg-[#DDC7BB] rounded-[18px] flex gap-[24px] shadow-xl'>
         <Input placeholder="Location" />
         <Input placeholder="Type" />
         <Input placeholder="Price range" />
